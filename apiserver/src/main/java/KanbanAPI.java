@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @EnableAutoConfiguration
-public class KanbanBoard {
+public class KanbanAPI {
 
 
     @RequestMapping("/")
@@ -17,7 +17,7 @@ public class KanbanBoard {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(KanbanBoard.class, args);
+        SpringApplication.run(KanbanAPI.class, args);
 
     }
 }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apiserver" />
+        <module name="boscoLib" />
+        <module name="kanbanapi" />
+        <module name="kanbanweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="apiserver" target="11" />
+      <module name="boscoLib" target="11" />
+      <module name="kanbanapi" target="11" />
+      <module name="kanbanweb" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="apiserver" options="-Xlint:deprecation" />
+      <module name="boscoLib" options="-Xlint:deprecation" />
+      <module name="kanbanapi" options="-Xlint:deprecation" />
+      <module name="kanbanweb" options="-Xlint:deprecation" />
+    </option>
+  </component>
+</project>
