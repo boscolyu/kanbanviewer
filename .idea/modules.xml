@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apiserver/apiserver.iml" filepath="$PROJECT_DIR$/apiserver/apiserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/boscoLib.iml" filepath="$PROJECT_DIR$/web/boscoLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apiserver/kanbanapi.iml" filepath="$PROJECT_DIR$/apiserver/kanbanapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/kanbanweb.iml" filepath="$PROJECT_DIR$/web/kanbanweb.iml" />
+    </modules>
+  </component>
+</project>
